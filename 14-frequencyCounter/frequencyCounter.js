@@ -3,8 +3,8 @@ frequencyCounter = (word) => {
   const letters = word.split('');
 
   letters.forEach(letter => {
-    if (freq[letter] !== undefined) {
-      freq[letter] = freq[letter] + 1;
+    if (freq[letter]) {
+      freq[letter]++;
     } else {
       freq[letter] = 1;
     }
