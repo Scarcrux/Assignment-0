@@ -1,8 +1,7 @@
 frequencyCounter = (word) => {
   const freq = {};
-  const letters = word.split('');
 
-  letters.forEach(letter => {
+  word.split('').forEach(letter => {
     if (freq[letter]) {
       freq[letter]++;
     } else {

@@ -1,11 +1,7 @@
 countOfAllNumbersSmallerThanTarget = (nums, target) => {
-  let count = 0;
-
-  nums.forEach(num => {
-    if (num < target) count++;
-  });
-
-  return count;
+  return nums.filter(num => {
+    return num < target;
+  }).length;
 }
 
 // Do not edit this line;

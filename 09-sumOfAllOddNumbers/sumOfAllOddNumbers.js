@@ -1,11 +1,7 @@
 sumOfAllOddNumbers = (nums) => {
-  let count = 0;
-
-  nums.forEach(num => {
-    if (num % 2 !== 0) count++;
-  });
-
-  return count;
+  return nums.filter(num => {
+    return num % 2 !== 0;
+  }).length;
 }
 
 // Do not edit this line;

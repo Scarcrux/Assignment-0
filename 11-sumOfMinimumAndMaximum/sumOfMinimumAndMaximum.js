@@ -5,7 +5,7 @@ sumOfMinimumAndMaximum = (nums) => {
   nums.forEach(num => {
     if (num < low) low = num;
     if (num > high) high = num;
-  })
+  });
 
   return low + high;
 }

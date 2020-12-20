@@ -1,11 +1,7 @@
 sumOfNumsWithinARange = (nums, start, end) => {
-  let count = 0;
-
-  nums.forEach(num => {
-    if (num >= start && num <= end) count++;
-  });
-
-  return count;
+  return nums.filter(num => {
+    return num >= start && num <= end;
+  }).length;
 }
 
 // Do not edit this line;
