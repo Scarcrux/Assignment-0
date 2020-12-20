@@ -7,12 +7,10 @@ pairSum = (nums, target) => {
   for (let i = 0; i < nums.length; i++) {
     let difference = target - nums[i];
 
-    if (numbers[difference] !== undefined
-      && numbers[difference] !== i) {
+    if (difference in numbers) {
       return true;
-    } else {
-      numbers[nums[i]] = i;
     }
+    numbers[nums[i]] = i;
   }
 
   return false;
