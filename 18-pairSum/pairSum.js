@@ -1,6 +1,6 @@
 pairSum = (nums, target) => {
-  let length = nums.length;
   const numbers = {};
+  let length = nums.length;
 
   if (length <= 1) throw "Array size is less than 2";
 
