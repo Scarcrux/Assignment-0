@@ -4,7 +4,7 @@ pairSum = (nums, target) => {
 
   if (length <= 1) throw "Array size is less than 2";
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < length; i++) {
     let difference = target - nums[i];
 
     if (difference in numbers) {
