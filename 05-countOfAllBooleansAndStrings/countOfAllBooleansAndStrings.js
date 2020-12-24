@@ -1,8 +1,8 @@
 countOfAllBooleansAndStrings = (arr) => {
-  return arr.filter(element => {
-    return element === true || element === false ||
+  return arr.filter(element =>
+    element === true || element === false ||
       typeof element === "string"
-  }).length;
+  ).length;
 
   return count;
 }

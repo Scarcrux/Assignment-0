@@ -1,7 +1,5 @@
 countOfAllNumbersSmallerThanTarget = (nums, target) => {
-  return nums.filter(num => {
-    return num < target;
-  }).length;
+  return nums.filter(num => num < target).length;
 }
 
 // Do not edit this line;

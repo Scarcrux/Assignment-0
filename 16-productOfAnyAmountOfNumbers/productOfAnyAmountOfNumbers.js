@@ -1,7 +1,5 @@
 productOfAnyAmountOfNumbers = (...args) => {
-  return args.reduce((acc, arg) => {
-    return acc * arg;
-  }, 1)
+  return args.reduce((acc, arg) => acc * arg, 1)
 }
 
 // Do not edit this line;

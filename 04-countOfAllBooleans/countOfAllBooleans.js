@@ -1,7 +1,7 @@
 countOfAllBooleans = (arr) => {
-  return arr.filter(element => {
-    return element === true || element === false;
-  }).length;
+  return arr.filter(element =>
+    element === true || element === false
+  ).length;
 }
 
 // Do not edit this line;
